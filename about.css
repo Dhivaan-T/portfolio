@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 60%  40%;
+
+}
+
+
+
+.rose{
+    color: rgb(172, 7, 109);
+}
+
+.details{
+    display: flex;
+
+   
+    th,td{
+        padding: 10px;
+    }
+    th{
+        color: rgb(172, 7, 109);
+    }
+}
+.img-about h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+td span{
+    font-weight: bold;
+}
+.about-me{
+    padding: 40px 50px;
+}
+#hire, #resume{
+    background-color: rgb(172, 7, 109);
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    font-size: 15px;
+    margin-top: 30px;
+    
+    border-radius: 20px;
+}
+.name-roll{
+    font-size: 30px;
+}
+.box2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* height: 500px; */
+    /* border: 1px solid; */
+}
+.progress{
+    width: 320px;
+}
+.summary{
+    text-align: justify;
+    font-size: 20px;
+    padding: 25px 0px;
+}
+.details table tr{
+    padding: 20px 0px;
+}
+.course{
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-name, .course-per{
+    /* padding: 8px 0px; */
+    font-weight: bold;
+}
+.border{
+    margin: 0px 0px 25px 0px;
+}
+.border{
+    width: 320px;
+    height: 10px;
+    background-color: rgb(233, 217, 217);
+    border-radius: 10px;
+}
+.border-col{
+    /* border: 1px solid; */
+    /* width: 280px; */
+    border-radius: 10px;
+    height: 100%;
+}
+
+.bar1{
+    background-color: rgb(172, 7, 109);
+    width: 280px;
+}
+.bar22{
+    background-color: rgb(172, 7, 109);
+    width: 260px;
+}
+.bar23{
+    background-color: rgb(172, 7, 109);
+    width: 282px;}
+
+.last-one{
+    width: 245px;
+    background-color: rgb(172, 7, 109);
+}
+

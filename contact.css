@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+/* contact{ 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ }*/ 
+#contact{
+    font-weight: bold;
+    font-size: 30px;
+}
+form{
+    width: 50%;
+    /* height: 100px; */
+    background-color: rgb(243, 235, 235);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 65px 25%;
+    border-radius: 10px;
+    
+}
+
+input,textarea{
+    padding: 10px;
+    margin: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="Submit"]{
+    border: none;
+
+            background-color: rgb(172, 7, 109);
+            
+}
+
+h1{
+margin: 40px;
+font-size: 30px;
+}
